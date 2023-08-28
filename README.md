@@ -1,4 +1,7 @@
-Patient Choice Analysis README
+Note: Because this project involved working with sensitive information, 
+including patient names, hospital entry dates, and location information, I am 
+not able to provide the data that I used nor the models that I created in this 
+project.
 
 Program and README Authored by Bryce Burgess
 
@@ -259,13 +262,13 @@ str_maps:
 
     EX. When used in the categorize_vars function, this will take all entries
         in the column "hospital_type" and map those labeled "privat" to the 
-        number 1, "freigemeinnützig" to the value 2, and "öffentlich" to the 
+        number 1, "freigemeinnÃ¼tzig" to the value 2, and "Ã¶ffentlich" to the 
         value 3.
     str_maps = {"hospital_type":
                                 {
                                 "privat":1, 
-                                "freigemeinnützig":2, 
-                                "öffentlich":3
+                                "freigemeinnÃ¼tzig":2, 
+                                "Ã¶ffentlich":3
                                 }
                 }
 
